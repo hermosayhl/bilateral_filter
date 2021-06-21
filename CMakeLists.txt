@@ -25,13 +25,13 @@ include_directories(SYSTEM ${CMAKE_CURRENT_SOURCE_DIR}/include)
 
 
 
-# CUDA
-find_package(CUDA REQUIRED)
-set(CUDA_NVCC_FLAGS -G;-g)
-# (可执行文件, 源码)
-cuda_add_executable(executor src/bilateral_filter.cu)
+# # CUDA
+# find_package(CUDA REQUIRED)
+# set(CUDA_NVCC_FLAGS -G;-g)
+# # (可执行文件, 源码)
+# cuda_add_executable(executor src/bilateral_filter.cu)
 
-# add_executable(executor src/bilateral_filter.cpp)
+add_executable(executor src/bilateral_filter.cpp)
 
 
 # 寻找 opencv 的库
