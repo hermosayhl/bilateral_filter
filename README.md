@@ -35,6 +35,8 @@ cuda_add_executable(executor src/bilateral_filter.cu)
 
 结果如下：
 
+![image-20210622102058610](images/image-20210622102058610.png)
+
 [时间对比]
 
 
@@ -84,4 +86,12 @@ Details 展示
 
 
 容易产生梯度反转的伪影
+
+
+
+
+
+
+
+## 8. Reference
 
